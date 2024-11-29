@@ -1,0 +1,16 @@
+{
+  "name": "15-opdracht",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open --host",
+    "build": "vite build",
+    "preview": "vite preview --open --host",
+    "deploy": "surge ./dist amira-tip-calc.surge.sh",
+    "postdeploy": "start chrome https:amira-tip-calc.surge.sh"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1"
+  }
+}

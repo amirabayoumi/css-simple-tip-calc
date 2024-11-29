@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Calculate Tip</h1>
+        <div>
+          <label for="text"> Total</label>
+          <input type="text" placeholder="320" />
+        </div>
+
+        <div>
+          <h2>Choose a tip</h2>
+          <input type="button" value="10%" />
+          <input type="button" value="15%" />
+          <input type="button" value="20%" />
+          <input type="button" value="25%" />
+        </div>
+        <div>
+          <label for="option">split by</label>
+          <input type="number" />
+        </div>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <p>Base</p>
+            <p>$320.00</p>
+          </li>
+          <li>
+            <p>Tip</p>
+            <p>$48.00</p>
+          </li>
+          <li>
+            <p>Per person</p>
+            <p>$92.00</p>
+          </li>
+        </ul>
+        <div>
+          <p>Total</p>
+          <p>$368.00</p>
+        </div>
+        <input type="button" value="RESET" />
+      </section>
+    </main>
+  </body>
+</html>
